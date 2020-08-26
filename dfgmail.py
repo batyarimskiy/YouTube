@@ -22,7 +22,7 @@ def banner():
 banner()
 def clean():
     if os.name == 'nt':                                                                                                                                        
-clear = os.system('cls')
+        clear = os.system('cls')
     else:
         clear = os.system('clear')
 def check_connection():
