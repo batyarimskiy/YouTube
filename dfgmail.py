@@ -18,6 +18,7 @@ def banner():
     print(colored(""" |____/|_|   \____|_| |_| |_|\__,_|_|_| """, "white"))
     print(colored("""                                        """, "white"))
     print("[Создал - @BatyaRimskiy1 для Termux-One]")
+    print("colorama.Fore.RED+"\t    beta")
     print('\n')
 banner()
 def clean():
